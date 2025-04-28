@@ -1,0 +1,23 @@
+table {
+  border: 1px solid black;
+}
+
+tr {
+  border: 1px solid red;
+}
+tr:nth-child(even) {
+  background-color: red;
+}
+tr:nth-child(odd) {
+  background-color: white;
+}
+td {
+  border: 1px solid red;
+}
+tr:last-child {
+  background-color: yellow;
+}
+
+tr:first-child {
+  background-color: lightblue;
+}
